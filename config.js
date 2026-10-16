@@ -1,0 +1,1 @@
+import{createClient}from'https://esm.sh/@supabase/supabase-js@2.57.0';export const db=createClient('https://zovznnnuwmrjdltcutsd.supabase.co','sb_publishable_bDJd0CQumufmXXScUND3YA_ZRKsC4VZ');export const money=n=>Number(n||0).toLocaleString('ko-KR')+'원';
